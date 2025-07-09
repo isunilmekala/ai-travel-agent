@@ -42,15 +42,7 @@ uv sync
 
 ## Usage
 
-There are two ways to run the application:
-
-1. Using the installed command:
-
-```bash
-travel-agent
-```
-
-2. Running directly with uv:
+Running directly with uv:
 
 ```bash
 uv run streamlit run agent.py
