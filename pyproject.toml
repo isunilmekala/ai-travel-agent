@@ -1,0 +1,19 @@
+[project]
+name = "ai-travel-agent"
+version = "0.1.0"
+description = "AI Travel Planner using Gemini - Plan your next adventure with personalized itineraries"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "agno>=1.7.1",
+    "google-genai>=1.24.0",
+    "python-dotenv>=1.1.1",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "httpx>=0.28.1",
+    "typer>=0.16.0",
+    "rich>=14.0.0",
+    "streamlit>=1.46.1",
+    "google-search-results>=2.4.2",
+    "black>=25.1.0",
+]
